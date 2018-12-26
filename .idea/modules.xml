@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hxb-api/hxb-api.iml" filepath="$PROJECT_DIR$/hxb-api/hxb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxb-data/hxb-data.iml" filepath="$PROJECT_DIR$/hxb-data/hxb-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxb-parent.iml" filepath="$PROJECT_DIR$/hxb-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hxb-web/hxb-web.iml" filepath="$PROJECT_DIR$/hxb-web/hxb-web.iml" />
+    </modules>
+  </component>
+</project>

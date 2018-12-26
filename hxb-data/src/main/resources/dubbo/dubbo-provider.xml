@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--<dubbo:annotation package="com.dhchxb.service.impl" />-->
+    <!--暴露一个服务-->
+    <dubbo:service interface="com.dhchxb.service.TestService" ref="testService">
+        <dubbo:method name="test" timeout="30000" retries="3"/>
+    </dubbo:service>
+</beans>

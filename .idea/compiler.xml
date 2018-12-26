@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hxb-api" />
+        <module name="hxb-data" />
+        <module name="hxb-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="hxb-api" target="1.8" />
+      <module name="hxb-config" target="1.7" />
+      <module name="hxb-data" target="1.8" />
+      <module name="hxb-parent" target="1.8" />
+      <module name="hxb-tools" target="1.7" />
+      <module name="hxb-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
